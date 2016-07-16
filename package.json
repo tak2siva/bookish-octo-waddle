@@ -1,0 +1,7 @@
+{
+  "name": "MyApp",
+  "version": "0.0.0",
+  "dependencies": {
+    "handlebars": "4.0.5"
+  }
+}

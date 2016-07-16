@@ -1,0 +1,14 @@
+.list_container {
+  background: lightgreen;
+  height: 200px;
+  overflow: auto;
+}
+
+.list_item {
+  border: 1px solid black;
+  height: 100px;
+}
+
+.list_elements {
+  display: inline-block;
+}

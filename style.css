@@ -6,6 +6,13 @@
 
 .list_item {
   border: 1px solid black;
+}
+
+.row_1 {
+  height: 100px;
+}
+
+.row_2 {
   height: 100px;
 }
 

@@ -1,6 +1,6 @@
 .list_container {
   background: lightgreen;
-  height: 200px;
+  /*height: 200px;*/
   overflow: auto;
 }
 

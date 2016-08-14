@@ -13,18 +13,15 @@ initialize: function(data)  {
 },
 
 initInfinity: function() {
-  this.infinityList = new infinity.ListView(this.$el, {
-    // lazy: function() {
-      //
-    // }
-  });
+  var self = this;
+  this.infinityList = (window.useInfinity) ? new infinity.ListView(this.$el) : this.$el;
   // this.infinityList.height="100%";
 },
 
 addToList: function(model) {
   var view = new viewKlass({model: model});
   this.infinityList.append(view.$el);
-  // view.delegateEvents();
+  view.delegateEvents();
   this.subViews[model.get('view_id')] = view;
 },
 
